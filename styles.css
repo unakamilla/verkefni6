@@ -66,12 +66,22 @@ h1 {
 
 /* TODO útfæra grid fyrir cards */
 
-/*
-  .card kemur óbreytt úr sýnilausn á verkefni 5 fyrir utan responsive stíla og
-  að það fær `height: 100%;`
-  Sýnilausn verður gefin út við lok dags miðvikudaginn 3. okt
-*/
 
-/* TODO .card stílar úr v5 (eða sýnilausn...) */
+.card {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 470px;
+  height: 100%;
+  overflow: auto;
+
+  background-color: #fff;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+}
+
 
 /* TODO responsive stílar fyrir .card */
